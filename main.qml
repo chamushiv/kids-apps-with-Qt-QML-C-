@@ -213,7 +213,7 @@ Rectangle{
         id:canvas
         anchors.top : tools.bottom
         width: 420
-        height: 452
+        height: 431
         anchors.topMargin: -1
         property int lastX: 0
         property int lastY: 0
@@ -282,6 +282,7 @@ Rectangle{
         MouseArea {
             id: area
             height: 435
+            anchors.bottomMargin: 0
             anchors.topMargin: 0
             anchors.fill: parent
 
